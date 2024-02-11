@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silly Explanation</title>
+    <style>
+        body {
+            text-align: center; /* Center align the content */
+            background-color: #ffd1dc; /* Background color from the main page */
+            font-family: Arial, sans-serif; /* Font from the main page */
+        }
+        h1 {
+            margin-top: 50px; /* Add some top margin for spacing */
+        }
+        img {
+            max-width: 80%; /* Set maximum width to ensure image fits within its container */
+            height: auto; /* Maintain aspect ratio */
+            margin-top: 20px; /* Add some top margin for spacing */
+            animation: moveImage 3s infinite alternate; /* Apply animation */
+        }
+
+        @keyframes moveImage {
+            0% {
+                transform: translateX(-50px) translateY(-50px); /* Move image up and left */
+            }
+            50% {
+                transform: translateX(50px) translateY(50px); /* Move image down and right */
+            }
+            100% {
+                transform: translateX(-50px) translateY(-50px); /* Move image back up and left */
+            }
+        }
+    </style>
+</head>
+<body>
+    <h1>What do you mean silly......</h1>
+    <img src="Image/Date/cryingcat.png" alt="Crying Cat">
+</body>
+</html>
